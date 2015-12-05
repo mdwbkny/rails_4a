@@ -3,13 +3,21 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-	background: #2A433A;
+	background: #FDBF48;
 	
 }
 
 #head {
 	text-align: center;
-	color: #FFC20E;
+	color: #333333;
+	font-size: 104px;
+	font-weight: 750;
+	margin-top: 0;
+}
+
+#bar {
+	color: #000000;
+	border-color: #080808;
 }
 
 h4 {
@@ -46,7 +54,7 @@ footer {
 }
 
 a {
-	color: #FFC20E;
+	color: #000000;
 	&:hover {
 		color: white;
 	}
