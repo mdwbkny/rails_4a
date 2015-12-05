@@ -1,0 +1,82 @@
+// Place all the styles related to the listings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background: #2A433A;
+	
+}
+
+#head {
+	text-align: center;
+	color: #FFC20E;
+}
+
+h4 {
+	text-decoration: underline;
+}
+
+#menu {
+	color: white;
+	margin: 0px;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+#listing {
+	border: solid;
+	border-spacing: 0;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#users {
+	display: inline;
+
+}
+
+a {
+	color: #FFC20E;
+	&:hover {
+		color: white;
+	}
+}
+
+#form1 {
+	border: solid;
+	border-color: #FFC20E;
+	text-align: center;
+	height: 325px;
+	width: 300px;
+}
+
+table.pure-table {
+	color: #FFC20E;
+	tbody {
+		tr {
+			background-color: #414141;
+		}		
+	}
+}
+
+h2 {
+	color: #FFC20E;
+}
+
+#form {
+	border: solid;
+	border-color: #FFC20E;
+	text-align: center;
+	height: 375px;
+	width: 300px;
+}

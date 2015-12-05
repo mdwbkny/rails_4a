@@ -1,0 +1,40 @@
+<html>
+<title>Green Bay Real Estate</title>
+<h1 id="head">Green Bay Real Estate</h1>
+
+<div id="menu">
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/listings">Listings</a></li>
+        <li><a href="/listings/new">New Listing</a></li>
+	</ul>
+</div>
+<center>
+<table class="pure-table pure-table-bordered">
+    <thead>
+        <tr>
+        	<th>ID</th>
+            <th>Image</th>
+            <th>Address</th>
+            <th>Unit</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Show</th>
+        </tr>
+    </thead>
+    		<% @listings.each do |listing| %>
+    <tbody>
+        <tr>
+            <td><%= listing.id %></td>
+            <td><%= image_tag listing.image.url(:thumb) %></td>
+            <td><%= listing.address %></td>
+            <td><%= listing.unit %></td>
+            <td>$<%= listing.price %>.00</td>
+            <td><%= listing.description %></td>
+            <td><%= link_to "Show", listing %></td>
+        </tr>
+        	<% end %>
+    </tbody>
+</table></center>
+<footer>&copy; Copyright 2015 - Green Bay Real Estate</footer>
+</html>
