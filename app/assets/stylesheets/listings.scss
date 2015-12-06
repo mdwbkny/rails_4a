@@ -15,9 +15,10 @@ body {
 	margin-top: 0;
 }
 
-#bar {
-	color: #000000;
-	border-color: #080808;
+.bar {
+	border: solid;
+	border-color: black;
+	color: black;
 }
 
 h4 {
@@ -30,7 +31,7 @@ h4 {
 }
 
 ul {
-	text-align: center;
+	text-align: left;
 }
 
 li {
@@ -50,7 +51,6 @@ footer {
 
 #users {
 	display: inline;
-
 }
 
 a {

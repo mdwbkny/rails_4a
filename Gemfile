@@ -34,8 +34,6 @@ gem 'pure-css-rails'
 
 gem 'heroku'
 
-gem 'rename'
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
