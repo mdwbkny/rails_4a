@@ -8,17 +8,17 @@ body {
 }
 
 #head {
-	text-align: center;
 	color: #333333;
 	font-size: 104px;
 	font-weight: 750;
 	margin-top: 0;
+	text-align: center;
 }
 
 .bar {
-	border: solid;
-	border-color: black;
 	background-color: black;
+	border-color: black;
+	border: solid;
 }
 
 .bar a {
@@ -66,10 +66,10 @@ a {
 }
 
 #form1 {
-	border: solid;
 	border-color: #FFC20E;
-	text-align: center;
+	border: solid;
 	height: 325px;
+	text-align: center;
 	width: 300px;
 }
 
@@ -87,17 +87,17 @@ h2 {
 }
 
 #form {
-	border: solid;
 	border-color: #FFC20E;
-	text-align: center;
+	border: solid;
 	height: 375px;
+	text-align: center;
 	width: 300px;
 }
 
 h3 {
-	text-align: center;
+	color: #333333;
 	font-size: 22px;
 	letter-spacing: 2px;
-	color: #333333;
 	margin: 0 0 0 0px;
+	text-align: center;
 }
